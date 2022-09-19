@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestRunner">
+    <classes>
+      <class name="Testcases.validGetSingleUser"/>
+      <class name="Testcases.validGetListUser"/>
+      <class name="Testcases.invalidSingleUser"/>
+      <class name="Testcases.validGetSingleResource"/>
+      <class name="Testcases.validGetListResource"/>
+      <class name="Testcases.invalidGetSingleUser"/>
+      <class name="Testcases.validPost"/>
+      <class name="Testcases.validGetDelayresponse"/>
+      <class name="Testcases.ValidPostRegistersuccess"/>
+      <class name="Testcases.invalidPostRegister"/>
+      <class name="Testcases.validPostLogin"/>
+      <class name="Testcases.invalidPostLogin"/>
+      <class name="Testcases.validPut"/>
+      <class name="Testcases.validPut1"/>
+      <class name="Testcases.validdelete"/>
+      <class name="Testcases.invaliddelete"/>
+      <class name="Testcases.invalidpostemail"/>
+      <class name="Testcases.invalidpostmisspass"/>
+      <class name="Testcases.invalidpostwrongemail"/>
+      <class name="Testcases.invalidpostwrongpass"/>
+      <class name="Testcases.invalidput"/>
+      
+    </classes>
+  </test> <!-- TestRunner -->
+</suite> <!-- Suite -->
